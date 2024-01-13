@@ -8424,7 +8424,7 @@ AddConnection(CConnect(CommandBar.Input.FocusLost, function()
     local Text = trim(CommandBar.Input.Text);
     local CommandArgs = split(Text, " ");
 
-    CommandBarOpen = false
+    CommandBarOpen = true
 
     if (not Draggable) then
         Utils.TweenAllTrans(CommandBar, .5)
