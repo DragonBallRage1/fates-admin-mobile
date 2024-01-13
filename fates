@@ -1270,7 +1270,7 @@ local ChatLogMessage = UI.Message
 local GlobalChatLogMessage = Clone(UI.Message);
 local NotificationBar = UI.NotificationBar
 
-CommandBarOpen = false
+CommandBarOpen = true
 CommandBarTransparencyClone = Clone(CommandBar);
 ChatLogsTransparencyClone = Clone(ChatLogs);
 ConsoleTransparencyClone = Clone(Console);
