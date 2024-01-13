@@ -1053,7 +1053,7 @@ end
 
 local Settings = {
     Prefix = "!",
-    CommandBarPrefix = "Semicolon",
+    CommandBarPrefix = "Z",
     ChatPrediction = false,
     Macros = {},
     Aliases = {},
@@ -1528,7 +1528,7 @@ end
 local LoadTheme;
 do
     local Config = GetConfig();
-    CommandBarPrefix = isfolder and (Config.CommandBarPrefix and Enum.KeyCode[Config.CommandBarPrefix] or Enum.KeyCode.Semicolon) or Enum.KeyCode.Semicolon
+    CommandBarPrefix = isfolder and (Config.CommandBarPrefix and Enum.KeyCode[Config.CommandBarPrefix] or Enum.KeyCode.Z) or Enum.KeyCode.Z
 
     local Theme = GetThemeConfig();
     LoadTheme = function(Theme)
